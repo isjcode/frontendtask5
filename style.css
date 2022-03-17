@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.img-section {
+    width: 100%;
+    background-image: url("img/leaves.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+
+span, i, h1{
+    color: white;
+}
+
+.header {
+    display: flex;
+    height: 100px;
+}
+
+.header-left {
+    padding: 25px;
+    margin-left: 300px;
+    width: 10%;
+}
+
+.header-left img {
+    width: 95px;
+}
+
+.header-right {
+    width: auto;
+    padding: 25px;
+    margin-left: 200px;
+    font-size: 15px;
+}
+
+.header-right i {
+    padding-right: 40px;
+}
+
+.words {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;;
+}
+
+.words h1 {
+    font-size: 320%;
+    padding: 10px;
+}
+
+.input {
+    text-align: center;
+    padding: 20px;
+}
+
+.input input {
+    width: 250px;
+    height: 35px;
+    margin: 10px;
+    font-size: 15px;
+    padding-left: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.submit {
+    background-color: #FF4A52;
+    color: white;
+    padding: 0 !important;
+}
+
+.submit:hover {
+    background-color: #1EC6B6;
+}
+
+.words {
+    padding: 30px;
+}
+
+.words h1, words h1 {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.words span, .words span {
+    color: grey;
+    display: block;
+    text-align: center;
+}
+
+.pics, .trips{
+    width: 80%;
+    margin: auto;
+}
+
+.pics img, .trips img{
+    width: 20%;
+    border-radius: 5px;
+}
+
+.pics img:hover, .trips div:hover {
+    transition: 0.2s ease-out;
+    transform: translateY(-6px);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.pics, .trips {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.trips img {
+    width: 100%;
+}
+.trips div {
+    width: 20%;
+    height: 250px;
+}
+
+.trips h3, span{
+    padding: 5px;
+    color: black;
+}
+
+.choose {
+    width: 75%;
+    height: 400px;
+    margin: auto;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.choose h2 {
+    padding: 10px;
+    text-align: center;
+}
+
+.choose text {
+    margin-right: 100px;
+}
+
+.img-box {
+    width: 300px;
+    text-align: center;
+}
+
+.video {
+    width: 100%;
+    height: 300px;
+    border: 2px solid red;
+}
