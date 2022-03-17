@@ -157,3 +157,7 @@ span, i, h1{
     height: 300px;
     border: 2px solid red;
 }
+
+.header span, .form h1 {
+  color: white;
+}
